@@ -1,0 +1,9 @@
+#playbook to update patches on Ubuntu OS
+- name: Servers list
+  hosts: 10.27.2.251
+  become: yes
+
+  tasks:
+
+- name: Install latest OS Patches
+  
