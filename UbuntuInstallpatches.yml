@@ -1,4 +1,4 @@
-- hosts: servers
+- hosts: 10.27.2.251
   become: true
   
   tasks:
